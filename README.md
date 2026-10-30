@@ -41,6 +41,4 @@ python3 scenario.py
 ```
 ##  Obstacles surmontés
 * **Gestion du bruit réseau :** Le simulateur générant un trafic de fond constant, le principal défi a été de maintenir l'injection des trames de contrôle (vitesse, clignotants) sans être écrasé par le bruit, résolu en ajustant la fréquence d'envoi des paquets via Python.
-  
-### ⚠️ Avertissement Légal
-Ce projet a été réalisé à des fins strictement éducatives. Les techniques démontrées ne doivent jamais être appliquées sur un véhicule réel en circulation ou sans l'autorisation explicite du propriétaire.
+
