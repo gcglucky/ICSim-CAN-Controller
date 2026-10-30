@@ -30,7 +30,7 @@ sudo ip link add dev vcan0 type vcan
 sudo ip link set up vcan0
 ```
 ### 2. Lancer le simulateur ICSim
-*(Dans deux terminaux séparés)*
+*(j ai mis dans deux terminaux séparés)*
 ```bash
 ./icsim vcan0
 ./controls vcan0
